@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://kit.fontawesome.com/fffd02f36b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/responsive.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a class="logo" href="#">We<span>Build</span></a>
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#service">service</a>
+        <a href="#project">project</a>
+        <a href="#pricing">pricing</a>
+        <a href="#blogs">blogs</a>
+        <a href="#contacts">contacts</a>
+      </nav>
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="detail-btn" class="fas fa-info-circle"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="info-btn" class="fas fa-user"></div>
+      </div>
+      <div class="search-form">
+        <input class="hello" type="search" placeholder="Type to search..." />
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="login-form">
+        <h1>login form</h1>
+        <input type="text" placeholder="User" />
+        <input type="password" placeholder="password" />
+        <div class="check">
+          <label for="agree"
+            ><input type="checkbox" id="agree" />Remember me</label
+          >
+          <a href="/">forgot password?</a>
+        </div>
+        <div class="btn">login now</div>
+        <p>don't have an account <a href="">creat one</a></p>
+      </div>
+    </header>
+    <div class="modal">
+      <div class="cancel-btn fas fa-times"></div>
+      <div class="modal-content">
+        <div class="modal-content_box">
+          <div class="fas fa-phone"></div>
+          <h2 class="modal_title">phone number</h2>
+          <p>0966271538</p>
+          <p>0961194135</p>
+        </div>
+        <div class="modal-content_box">
+          <div class="fas fa-envelope"></div>
+          <h2 class="modal_title">email address</h2>
+          <p>chinhlong30032001@gmail.com</p>
+          <p>hotrokhachhang@gmail.com</p>
+        </div>
+        <div class="modal-content_box">
+          <div class="fas fa-map-marker-alt"></div>
+          <h2 class="modal_title">office address</h2>
+          <p>Long son - Anh son</p>
+        </div>
+        <div class="modal-contact">
+          <div class="fab fa-facebook"></div>
+          <div class="fab fa-twitter"></div>
+          <div class="fab fa-instagram"></div>
+          <div class="fab fa-linkedin"></div>
+        </div>
+      </div>
+    </div>
+
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper slider-wrapper">
+          <div
+            class="swiper-slide slide"
+            style="background: url(./img/home-slide-1.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>we provide best services</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <a href="#about" class="btn-home">get started</a>
+            </div>
+          </div>
+          <div
+            class="swiper-slide slide"
+            style="background: url(./img/home-slide-2.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>we provide best services</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <a href="#about" class="btn-home">get started</a>
+            </div>
+          </div>
+          <div
+            class="swiper-slide slide"
+            style="background: url(./img/home-slide-3.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>we provide best services</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <a href="#about" class="btn-home">get started</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="title">about us</div>
+      <div class="content-about">
+        <div class="video-about">
+          <video src="./img/about-vid.mp4" autoplay controls loop></video>
+        </div>
+        <div class="introduce-about">
+          <h1>we will provide you the best work which you dream for!</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+            repellat ipsum mollitia incidunt alias quis quisquam!.
+          </p>
+          <a href="#about" class="btn-home">get started</a>
+        </div>
+      </div>
+      <div class="footer-about">
+        <div class="experience">
+          <h1>10+</h1>
+          <p>years of experience</p>
+        </div>
+        <div class="experience">
+          <h1>1500+</h1>
+          <p>project completed</p>
+        </div>
+        <div class="experience">
+          <h1>750+</h1>
+          <p>satisfied clients</p>
+        </div>
+        <div class="experience">
+          <h1>450+</h1>
+          <p>actice worker</p>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="title">our services</div>
+      <div class="content-services">
+        <div class="service-item">
+          <img src="./img/service-1.png" alt="" />
+          <h2>building construction</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div class="service-item">
+          <img src="./img/service-2.png" alt="" />
+          <h2>building construction</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div class="service-item">
+          <img src="./img/service-3.png" alt="" />
+          <h2>building construction</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div class="service-item">
+          <img src="./img/service-4.png" alt="" />
+          <h2>building construction</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div class="service-item">
+          <img src="./img/service-5.png" alt="" />
+          <h2>building construction</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div class="service-item">
+          <img src="./img/service-6.png" alt="" />
+          <h2>building construction</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div class="service-item">
+          <img src="./img/service-7.png" alt="" />
+          <h2>building construction</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div class="service-item">
+          <img src="./img/service-8.png" alt="" />
+          <h2>building construction</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+      </div>
+    </section>
+    <section class="project" id="project">
+      <div class="title white">our project</div>
+      <div class="content-project">
+        <a href="./img/project-1.jpg" class="item-project">
+          <img src="./img/project-1.jpg" alt="" />
+          <div class="content_item-project">
+            <div class="left">
+              <h2>dream house</h2>
+              <p>design, construction</p>
+            </div>
+            <div class="right">
+              <div class="fas fa-plus"></div>
+            </div>
+          </div>
+        </a>
+        <a href="./img/project-2.jpg" class="item-project">
+          <img src="./img/project-2.jpg" alt="" />
+          <div class="content_item-project">
+            <div class="left">
+              <h2>dream house</h2>
+              <p>design, construction</p>
+            </div>
+            <div class="right">
+              <div class="fas fa-plus"></div>
+            </div>
+          </div>
+        </a>
+        <a href="./img/project-3.jpg" class="item-project">
+          <img src="./img/project-3.jpg" alt="" />
+          <div class="content_item-project">
+            <div class="left">
+              <h2>dream house</h2>
+              <p>design, construction</p>
+            </div>
+            <div class="right">
+              <div class="fas fa-plus"></div>
+            </div>
+          </div>
+        </a>
+        <a href="./img/project-4.jpg" class="item-project">
+          <img src="./img/project-4.jpg" alt="" />
+          <div class="content_item-project">
+            <div class="left">
+              <h2>dream house</h2>
+              <p>design, construction</p>
+            </div>
+            <div class="right">
+              <div class="fas fa-plus"></div>
+            </div>
+          </div>
+        </a>
+        <a href="./img/project-5.jpg" class="item-project">
+          <img src="./img/project-5.jpg" alt="" />
+          <div class="content_item-project">
+            <div class="left">
+              <h2>dream house</h2>
+              <p>design, construction</p>
+            </div>
+            <div class="right">
+              <div class="fas fa-plus"></div>
+            </div>
+          </div>
+        </a>
+        <a href="./img/project-6.jpg" class="item-project">
+          <img src="./img/project-6.jpg" alt="" />
+          <div class="content_item-project">
+            <div class="left">
+              <h2>dream house</h2>
+              <p>design, construction</p>
+            </div>
+            <div class="right">
+              <div class="fas fa-plus"></div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section class="pricing">
+      <div class="title">our pricing</div>
+      <div class="content-pricing">
+        <div class="item-pricing">
+          <div class="fas fa-home"></div>
+          <h3>basic plan</h3>
+          <p class="money">$ <span>150</span>/mo</p>
+          <p>javascript</p>
+          <p>python</p>
+          <p>react js</p>
+          <p>perfesional</p>
+          <p>24/7 support</p>
+          <div class="btn-home">choose plan</div>
+        </div>
+        <div class="item-pricing">
+          <div class="fas fa-hotel"></div>
+          <h3>basic plan</h3>
+          <p class="money">$ <span>1000</span>/mo</p>
+          <p>javascript</p>
+          <p>python</p>
+          <p>react js</p>
+          <p>perfesional</p>
+          <p>24/7 support</p>
+          <div class="btn-home">choose plan</div>
+        </div>
+        <div class="item-pricing">
+          <div class="fas fa-building"></div>
+          <h3>basic plan</h3>
+          <p class="money">$ <span>650</span>/mo</p>
+          <p>javascript</p>
+          <p>python</p>
+          <p>react js</p>
+          <p>perfesional</p>
+          <p>24/7 support</p>
+          <div class="btn-home">choose plan</div>
+        </div>
+      </div>
+    </section>
+    <section class="review" id="review">
+      <div class="title">clients review</div>
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide-review">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Distinctio porro reiciendis aut aliquid corporis doloremque error
+              sint sequi minus iusto id repellat omnis, sunt deserunt incidunt
+              ipsum quisquam nulla laboriosam.
+            </p>
+            <div class="infor">
+              <img src="./img/pic-1.png" alt="" />
+              <div class="name-reaction">
+                <h2>John del</h2>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide-review">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Distinctio porro reiciendis aut aliquid corporis doloremque error
+              sint sequi minus iusto id repellat omnis, sunt deserunt incidunt
+              ipsum quisquam nulla laboriosam.
+            </p>
+            <div class="infor">
+              <img src="./img/pic-2.png" alt="" />
+              <div class="name-reaction">
+                <h2>John del</h2>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide-review">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Distinctio porro reiciendis aut aliquid corporis doloremque error
+              sint sequi minus iusto id repellat omnis, sunt deserunt incidunt
+              ipsum quisquam nulla laboriosam.
+            </p>
+            <div class="infor">
+              <img src="./img/pic-3.png" alt="" />
+              <div class="name-reaction">
+                <h2>John del</h2>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide-review">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Distinctio porro reiciendis aut aliquid corporis doloremque error
+              sint sequi minus iusto id repellat omnis, sunt deserunt incidunt
+              ipsum quisquam nulla laboriosam.
+            </p>
+            <div class="infor">
+              <img src="./img/pic-4.png" alt="" />
+              <div class="name-reaction">
+                <h2>John del</h2>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide-review">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Distinctio porro reiciendis aut aliquid corporis doloremque error
+              sint sequi minus iusto id repellat omnis, sunt deserunt incidunt
+              ipsum quisquam nulla laboriosam.
+            </p>
+            <div class="infor">
+              <img src="./img/pic-5.png" alt="" />
+              <div class="name-reaction">
+                <h2>John del</h2>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide-review">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Distinctio porro reiciendis aut aliquid corporis doloremque error
+              sint sequi minus iusto id repellat omnis, sunt deserunt incidunt
+              ipsum quisquam nulla laboriosam.
+            </p>
+            <div class="infor">
+              <img src="./img/pic-6.png" alt="" />
+              <div class="name-reaction">
+                <h2>John del</h2>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="title white">contact us</div>
+      <div class="contact-content">
+        <div class="map-contact">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d556685.5318477809!2d105.59606483120365!3d9.852851617509245!3m2!1i1024!2i768!4f13.1!4m3!3e4!4m0!4m0!5e0!3m2!1svi!2s!4v1642282159539!5m2!1svi!2s"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <form class="form-contact">
+          <h1>get in touch</h1>
+          <div><input type="text" placeholder="name" /></div>
+          <div><input type="text" placeholder="email" /></div>
+          <div><input type="text" placeholder="phone" /></div>
+          <div>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="5"
+              placeholder="message"
+            ></textarea>
+          </div>
+          <div class="btn-home">send message</div>
+        </form>
+      </div>
+    </section>
+    <section class="blogs" id="blogs">
+      <div class="title">our blogs</div>
+      <div class="swiper blog-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide item-blog">
+            <img src="./img/blog-2.jpg" alt="" />
+            <div class="item-content">
+              <h2>blog title goes here</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="btn-home">read more</div>
+            </div>
+          </div>
+          <div class="swiper-slide item-blog">
+            <img src="./img/blog-3.jpg" alt="" />
+            <div class="item-content">
+              <h2>blog title goes here</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="btn-home">read more</div>
+            </div>
+          </div>
+          <div class="swiper-slide item-blog">
+            <img src="./img/blog-4.jpg" alt="" />
+            <div class="item-content">
+              <h2>blog title goes here</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="btn-home">read more</div>
+            </div>
+          </div>
+          <div class="swiper-slide item-blog">
+            <img src="./img/blog-5.jpg" alt="" />
+            <div class="item-content">
+              <h2>blog title goes here</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="btn-home">read more</div>
+            </div>
+          </div>
+          <div class="swiper-slide item-blog">
+            <img src="./img/blog-6.jpg" alt="" />
+            <div class="item-content">
+              <h2>blog title goes here</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="btn-home">read more</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="content-footer">
+        <div class="img-footer">
+          <div><img src="./img/client-logo-1.png" alt="" /></div>
+          <div><img src="./img/client-logo-2.png" alt="" /></div>
+          <div><img src="./img/client-logo-3.png" alt="" /></div>
+          <div><img src="./img/client-logo-4.png" alt="" /></div>
+          <div><img src="./img/client-logo-5.png" alt="" /></div>
+        </div>
+        <div class="link-footer">
+          <div class="btn-home"><a href="#home"></a>home</div>
+          <div class="btn-home"><a href="#about"></a>about</div>
+          <div class="btn-home"><a href="#services"></a>services</div>
+          <div class="btn-home"><a href="#project"></a>project</div>
+          <div class="btn-home"><a href="#pricing"></a>pricing</div>
+          <div class="btn-home"><a href="#contact"></a>contact</div>
+          <div class="btn-home"><a href="#blog"></a>blogs</div>
+        </div>
+        <div class="signature">
+          <p>
+            created by
+            <a href="https://www.facebook.com/" target="blank"
+              >mr. chinh cubi </a
+            >all rights reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./style/demo.js"></script>
+  </body>
+</html>
